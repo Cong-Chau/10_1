@@ -151,11 +151,6 @@ function createMiniBox() {
     "22",
     "23",
     "24",
-    "25",
-    "26",
-    "27",
-    "28",
-    "29",
   ];
 
   let randomIndex = Math.floor(Math.random() * list.length);
