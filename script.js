@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
   present.classList.add("animated", "bounceInDown");
 
   present.addEventListener("click", function () {
+    confetti();
     top.classList.remove("animated", "bounce");
     top.classList.add("animated", "bounceOutUp");
     present.removeEventListener("click", arguments.callee);
